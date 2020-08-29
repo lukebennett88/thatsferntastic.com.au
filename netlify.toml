@@ -1,6 +1,7 @@
 [build]
-  command = "yarn run build"
+  command = "rm -rf yarn.lock && yarn run build"
   publish = "public/"
+  functions = "functions/"
 
 [dev]
   autoLaunch = true # a Boolean value that determines if Netlify Dev launches the local server address in your browser
