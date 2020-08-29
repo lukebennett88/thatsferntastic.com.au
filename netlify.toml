@@ -3,5 +3,8 @@
   publish = "public/"
   functions = "functions/"
 
+  [build.environment]
+  YARN_VERSION = "2.2.0"
+
 [dev]
   autoLaunch = true # a Boolean value that determines if Netlify Dev launches the local server address in your browser
