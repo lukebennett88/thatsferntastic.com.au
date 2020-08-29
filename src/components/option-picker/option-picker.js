@@ -6,7 +6,7 @@ export const OptionPicker = ({ name, options, onChange, selected }) => {
   return (
     <div>
       <label htmlFor={name.toLowerCase()}>
-        <span>{name}</span>
+        <span className="block">{name}</span>
         <select
           onChange={onChange}
           value={selected}
