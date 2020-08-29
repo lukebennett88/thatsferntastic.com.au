@@ -22,26 +22,40 @@ Icon.propTypes = {
 };
 
 export const navigation = [
-  { title: 'Mini pouches', slug: '/mini-pouches/', icon: Icon },
-  { title: 'Flatlay pouches', slug: '/flatlay-pouches/', icon: Icon },
   {
+    id: 'c1097822-ff05-48fe-8c55-9019d549df04',
+    title: 'Mini pouches',
+    slug: '/collections/mini-pouches/',
+    icon: Icon,
+  },
+  {
+    id: '8cd6ec55-c2e3-4deb-9889-499ed0c1fe33',
+    title: 'Flatlay pouches',
+    slug: '/collections/flatlay-pouches/',
+    icon: Icon,
+  },
+  {
+    id: '46761fd5-bebf-49c9-a8e1-a2aecd4812f3',
     title: 'Free Standing Pouches',
-    slug: '/free-standing-pouches/',
+    slug: '/collections/free-standing-pouches/',
     icon: Icon,
   },
   {
+    id: '635e7a22-c82b-43cc-b4b4-d40abf734019',
     title: 'Limited Edition Pouches',
-    slug: '/limited-edition-pouches/',
+    slug: '/collections/limited-edition-pouches/',
     icon: Icon,
   },
   {
+    id: 'e1255a2f-8cec-4df5-a861-1fd5369f9673',
     title: 'Keyfobs',
-    slug: '/Keyfobs/',
+    slug: '/collections/Keyfobs/',
     icon: Icon,
   },
   {
+    id: 'da3dbf37-c87a-4734-b7c7-cfd680150b1d',
     title: 'Custom Orders',
-    slug: '/custom-orders/',
+    slug: '/collections/custom-orders/',
     icon: Icon,
   },
 ];
