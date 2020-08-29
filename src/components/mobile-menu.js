@@ -81,7 +81,7 @@ export default function MobileMenu({ isMenuOpen, setMenuOpen }) {
                 <nav className="px-2">
                   {navigation.map((navItem) => (
                     <Link
-                      key={navItem.slug}
+                      key={navItem.id}
                       to={navItem.slug}
                       activeClassName="text-gray-900 bg-gray-100 focus:bg-gray-200"
                       className="flex items-center px-2 py-2 mt-1 text-base font-medium leading-6 text-gray-600 transition duration-150 ease-in-out rounded-lg first:mt-0 group hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-100"

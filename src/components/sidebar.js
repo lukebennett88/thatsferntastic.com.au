@@ -9,7 +9,7 @@ export default function Sidebar() {
       <nav className="sticky rounded-lg top-28">
         {navigation.map((navItem) => (
           <Link
-            key={navItem.slug}
+            key={navItem.id}
             to={navItem.slug}
             activeClassName="text-gray-900 bg-gray-100 hover:bg-gray-100 focus:bg-gray-200"
             className="flex items-center px-2 py-2 mt-1 text-sm font-medium leading-5 text-gray-600 transition duration-150 ease-in-out rounded-lg group first:mt-0 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-100"
